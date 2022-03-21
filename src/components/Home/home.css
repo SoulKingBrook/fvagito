@@ -1,0 +1,16 @@
+.home_name_letter {
+  letter-spacing: 0.9em;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.order {
+  position: fixed;
+  right: 0;
+  width: fit-content;
+
+  color: blue;
+}
