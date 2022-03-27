@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 function ItemCards(props) {
   return (
     <div className="p-2">
@@ -14,9 +14,6 @@ function ItemCards(props) {
 
             <div className="font-sans font-medium text-gray-800">
               {props.name}
-            </div>
-            <div className="text-xs font-normal text-gray-400">
-              In Just Go Nuts
             </div>
             <div className="text-sm text-gray-700">{props.price}</div>
             <div className="text-sm text-gray-500 text-ellipsis...">
